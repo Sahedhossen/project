@@ -1,0 +1,144 @@
+/* common element start */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 940px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.align-center{
+
+    align-items: center;
+}
+.dot{
+    color: #fa5c65;
+}
+/* common element end */
+/* nav start */
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li a{
+    font-size: 14px;
+    color: #263742;
+    padding: 35px 18px;
+    display: block;
+}
+nav .menu ul li{
+    display: inline-block
+}
+nav ul a{
+    padding: 0 24px;
+}
+nav .menu ul li .icon{
+    color: red;
+    padding: 0 20px;
+}
+/* nav end */
+
+/* section banner start */
+#banner {
+    height: 1050px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/banner.jpg);
+}
+#banner .banner_cnt{
+    /* padding: 0 0 500px 0; */  
+}
+#banner .banner_cnt h3{
+    font-weight: 800;
+    font-size: 48px;
+    color: #000000;
+    margin: 0 0;
+    padding-right: 500px;
+    color: #314a5b;
+    text-transform: uppercase;
+}
+
+#banner .banner_cnt p{
+    color: #314a5b;
+    padding: 30px 0;
+    font-weight: 400;
+}
+#banner .row{
+    height: 1050px;
+}
+#banner .banner_cnt a{
+    background-color: #fa5c65;
+    color: white;
+    display: inline-block;
+    padding: 20px 30px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 15px;
+}
+/* section banner end */
+
+/* intro start */
+#intro{
+    padding: 90px 0;
+}
+#intro .peace{
+    width: 33.33%;
+    padding: 0 15px;
+    text-align: left;
+}
+#intro .peace h3{
+    color: #465065;
+    font-size: 26px;
+    font-weight: 800;
+    padding: 10px 0;
+}
+#intro .peace p{
+    margin: 10px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#intro .peace a{
+    color: #fa5c65;
+}
+
+/* intro end */ 
+
+/* portfolio start */
+#portfolio .img{
+    width: 40%;
+}
+#portfolio .port{
+    width: 60%;
+}
+#portfolio .port h2{
+    font-weight: 800;
+    font-size: 40px;
+    color: #314a5b;
+    text-transform: uppercase;
+}
+
+/* portfolio end */
